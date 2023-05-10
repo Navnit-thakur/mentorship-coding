@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float fahrenhiet,celsius;
+    
+    cout<<"input value";
+    cin>>celsius;
+    fahrenhiet=(celsius*9/5)+32;
+    cout<<fahrenhiet<<endl;
+    return 0;
+}
