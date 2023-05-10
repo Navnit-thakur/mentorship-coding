@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+   float r,area, pi,cir;
+
+    pi=3.14;
+
+    cout<<"input all value";
+
+    cin>>r;
+
+    area=pi*r*r;
+
+    cir=2*pi*r;
+
+    cout<<"area of circle ="<<area<<endl;
+
+    cout<<"circumference of circle ="<< cir;
+
+    return 0;
+    }
+
