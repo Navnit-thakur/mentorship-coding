@@ -8,5 +8,6 @@ cin >>a>>b>>c>>d>>e;
 sum=a+b+c+d+e;
 per=sum/5;
 cout<<per<<endl;
+cout<<sum;
 return 0;
 }
