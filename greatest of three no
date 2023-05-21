@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a,b,c;
+  cout<<"enter all no";
+  cin>>a>>b>>c;
+ if(a>b && a>c) 
+  {
+  cout<<"greater no is first";
+  }
+ else if (b>a && b>c)
+   {cout<<"greater no is second";
+   }
+ else
+  { cout<<"greater no is third";
+  }
+}
