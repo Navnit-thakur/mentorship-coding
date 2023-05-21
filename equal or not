@@ -12,5 +12,5 @@ int main()
  else
    {cout<<"no is not equal";
    }
- 
+ return 0;
 }
