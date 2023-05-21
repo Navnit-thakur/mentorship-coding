@@ -15,4 +15,5 @@ int main()
  else
   { cout<<"greater no is third";
   }
+return 0;
 }
