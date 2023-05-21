@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int math,ph,sc,so,bi,grade;
+  cout<<"enter all subject mask ";
+  cin>>math>>ph>>sc>>so>>bi;
+  grade=(math+ph+sc+so+bi)/5;
+  if(grade>=90)
+   {
+        cout<<"A";
+    }
+  else if(grade>=80 && grade<90)
+   {    
+       cout<<"B";
+   }
+  else if(grade>=60 && grade<80)
+   {
+       cout<<"C";
+   }
+  else
+   {
+       cout<<"D";
+   }
+  return 0;
+}
